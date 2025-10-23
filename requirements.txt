@@ -1,0 +1,13 @@
+torch>=1.13
+torchvision
+tqdm
+matplotlib
+opencv-python
+datasets
+huggingface_hub
+scipy
+pandas
+python-docx
+pyyaml
+numpy==1.26.4
+python-docx

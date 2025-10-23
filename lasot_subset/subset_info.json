@@ -1,0 +1,58 @@
+{
+  "bicycle": {
+    "train": [
+      "bicycle-9",
+      "bicycle-14",
+      "bicycle-4",
+      "bicycle-13",
+      "bicycle-18",
+      "bicycle-3",
+      "bicycle-5",
+      "bicycle-8",
+      "bicycle-15",
+      "bicycle-20",
+      "bicycle-7",
+      "bicycle-19",
+      "bicycle-10",
+      "bicycle-2",
+      "bicycle-11",
+      "bicycle-6"
+    ],
+    "test": [
+      "bicycle-16",
+      "bicycle-17",
+      "bicycle-1",
+      "bicycle-12"
+    ],
+    "train_size": 16,
+    "test_size": 4
+  },
+  "airplane": {
+    "train": [
+      "airplane-4",
+      "airplane-17",
+      "airplane-12",
+      "airplane-2",
+      "airplane-19",
+      "airplane-6",
+      "airplane-10",
+      "airplane-20",
+      "airplane-14",
+      "airplane-8",
+      "airplane-11",
+      "airplane-1",
+      "airplane-13",
+      "airplane-18",
+      "airplane-5",
+      "airplane-16"
+    ],
+    "test": [
+      "airplane-3",
+      "airplane-9",
+      "airplane-15",
+      "airplane-7"
+    ],
+    "train_size": 16,
+    "test_size": 4
+  }
+}

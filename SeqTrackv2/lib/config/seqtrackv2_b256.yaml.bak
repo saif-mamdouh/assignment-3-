@@ -1,0 +1,46 @@
+DATA:
+  SEARCH:
+    FACTOR: 4.0
+    NUMBER: 1
+    SIZE: 256
+  TEMPLATE:
+    FACTOR: 4.0
+    NUMBER: 1
+    SIZE: 256
+  TRAIN:
+    DATASETS_NAME:
+    - LASOT
+    DATASETS_RATIO:
+    - 1
+    SAMPLE_PER_EPOCH: 2000
+MODEL:
+  DECODER:
+    DEC_LAYERS: 2
+    DIM_FEEDFORWARD: 1024
+    NHEADS: 8
+  ENCODER:
+    DROP_PATH: 0
+    PRETRAIN_TYPE: mae
+    TYPE: vit_base_patch16
+  FEATURE_TYPE: x
+  HIDDEN_DIM: 256
+  INTERFACE_DIM: 32
+  INTERFACE_TYPE: low-rank_add
+  LANGUAGE:
+    PATH: pretrained/bert/bert-base-uncased.tar.gz
+    TYPE: bert-base-uncased
+    VOCAB_PATH: pretrained/bert/bert-base-uncased-vocab.txt
+TEST:
+  EPOCH: 5
+TRAIN:
+  BATCH_SIZE: 8
+  CE_WEIGHT: 1.0
+  EPOCH: 1
+  FIX_BN: true
+  LR: 0.0004
+  NUM_WORKER: 2
+  OPTIMIZER: ADAMW
+  PRETRAINED_PATH: ''
+  PRINT_INTERVAL: 50
+  TYPE: peft
+  WEIGHT_DECAY: 0.0001
